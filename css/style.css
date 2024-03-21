@@ -18,6 +18,10 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .header_contenido{
     width: 90vw;
     height: 7vw;
@@ -31,16 +35,13 @@ header{
     width: 12vw;
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
 }
 header > div > div > a{
     width: 10vw;
     text-decoration: none;
-    color: white;
-    font-size: 1.5vw;
+    color: black;
+    font-size: 1vw;
 }
 .header_logo a{
     font-size: 3vw;
@@ -59,41 +60,73 @@ header > div > div > a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: 1px solid black;
 }
 .contenido_left{
     width: 18%;
     height: 40vw;
     display: flex;
     flex-direction: column;
-    background-color: green;
     align-items: center;
     justify-content: space-around;
 }
 .contenido_left > div{
     width: 90%;
     height: 9vw;
-    background-color: violet;
+    background-image: url(https://undergoldapparel.com/cdn/shop/files/1_1c2c6efa-aa31-4707-a2bb-d93bab8f6f58_1000x.jpg?v=1709568087);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .contenido_imagen{
     width: 40%;
     height: 40vw;
     display: flex;
     flex-direction: column;
-    background-color: blue;
     align-items: center;
     justify-content: space-around;
 }
 .contenido_imagen > div{
     width: 95%;
     height: 35vw;
-    background-color: violet;
+    background-image: url(https://undergoldapparel.com/cdn/shop/files/1_1c2c6efa-aa31-4707-a2bb-d93bab8f6f58_1000x.jpg?v=1709568087);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .contenido_contenido{
     width: 43%;
-    height: 40vw;
+    height: 38vw;
     display: flex;
     flex-direction: column;
-    background-color: red;
-    align-items: center;
     justify-content: space-around;
+}
+.contenido_contenido > div > h1{
+    font-size: 2vw;
+}
+.contenido_contenido > div > i{
+    font-size: 2vw;
+}
+.contenido_contenido > div > p{
+    word-spacing: 0.3vw;
+    width: 70%;
+    font-size: 1.3vw;
+}
+.boton_contenido {
+    width: 12vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border: none;
+    background-color: beige;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton_contenido > a {
+    border: none;
+    background-color: transparent;
+    font-size: 1.6vw;
+    cursor: pointer;
 }
