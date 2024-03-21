@@ -184,5 +184,32 @@ a{
 .detalles_fotter{
     width: 100%;
     height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.detalles_fotter > div{
+    width: 40%;
+    height: 70%;
+}
+.detalles_fotter > div > h1{
+    font-size: 2vw;
+    color: black;
+    padding-top: 10px;
+}
+.detalles_fotter > article{
+    width: 40%;
+}
+.detalles_fotter > article > h1{
+    font-size: 1.5vw;
+    color: black;
+}
+.detalles_fotter > article > div{
+    width: 70%;
     background-color: green;
+}
+.detalles_fotter > article > div > h1{
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
 }
