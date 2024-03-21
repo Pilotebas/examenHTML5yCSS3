@@ -134,8 +134,53 @@ a{
 .detalles_contenido{
     width: 100%;
     height: 75%;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    gap: 1vw;
 }
+.detalles_contenido > section {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+.detalles_imagen{
+    width: 40%;
+    height: 100%;
+    background-image: url(https://undergoldapparel.com/cdn/shop/files/1_1c2c6efa-aa31-4707-a2bb-d93bab8f6f58_1000x.jpg?v=1709568087);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.detalles_info{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+.detalles_info > h1{
+    font-size: 1.2vw;
+}
+.detalles_info > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.detalles_info > div h1, .detalles_info > div h2{
+    font-size: 1.2vw;
+}
+.detalles_info > div > div{
+    font-size: 1.2vw;
+    color: red;
+}
+
 .detalles_fotter{
     width: 100%;
     height: 15%;
